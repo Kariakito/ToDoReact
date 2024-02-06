@@ -25,8 +25,6 @@ export default function App() {
         })
     }
 
-    
-
     function toggleTodo(id, completed) {
         setTodos( currentTodos => {
             return currentTodos.map(todo => {
